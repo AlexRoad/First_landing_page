@@ -1,0 +1,356 @@
+*{  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+  position: relative;
+   width: 1140px; 
+   margin: 0 auto;
+}
+
+.promo{
+    height: 800px;
+    background: url("../img/First_screen/Rectangle1.jpg") center center/cover no-repeat;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 38px;
+}
+
+.logo .logo_text{
+   
+   font-weight: 500; 
+   font-size: 15px; 
+   line-height: 24px; 
+   text-transform: uppercase; 
+   color: #FFFFFF;
+   text-align: center;
+   margin-top: 9.5px;
+}
+
+H1{
+  margin-top: 53px;
+  margin-bottom: 20.5px;
+}
+
+.title{
+  
+   font-weight: 900;
+   font-size: 41px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #F9BF3B;
+   text-align: center;
+}
+
+.simple .title_big{
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20.5px;
+}
+
+.promo .promo_text{
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  margin-top: 22.5px;
+  color: #FFFFFF;
+}
+
+.promo .promo_text span{
+  color: #F9BF3B;
+   font-weight: 700;
+}
+
+.promo .promo_btn{
+  display: block;
+  margin: 0px auto;
+  margin-top: 73px;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.22);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.more {
+  margin-top: 73px;
+}
+
+.promo .more_text{
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo .more_img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.waiting{
+  height: 604px;
+  background: #EFEFEF;
+  padding: 86px 0px 74px 0px;
+}
+
+.waiting .waiting_header, .finish .finish_header{
+ font-weight: 400;
+ font-size: 30px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #252525;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 220px;
+  height: 7px;
+  background-color: #F9BF3B;
+}
+
+.waiting .waiting_subheader{
+  margin-top: 17px;
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45.5px;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 15px;
+   width: 339px;
+   text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+      width: 100%;
+}
+ 
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+   margin-top: 33px; 
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 21px;
+}
+
+.optimization{
+    min-height: 547px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header{
+    margin-left: 391px;
+    color: #299CBD;
+    font-size: 29px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text{
+    margin-top: 25px;
+    margin-left: 391px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+ 
+.optimization .optimization_text span{
+      font-family: 'Roboto';
+      font-weight: 700;
+}
+   
+.optimization .optimization_img{
+     position: absolute;
+     top: -47px;
+     left: -240px;
+     z-index: -2;
+}
+
+.finish{
+  min-height: 450px;
+  padding: 86px 0 68.5px 0 ;
+  background: url('../img/First_screen/Rectangle1.jpg') center center/cover no-repeat
+}
+
+.finish .finish_header{
+  color: white;
+}
+
+.finish .finish_wrapper{
+margin-top: 39px;
+display: flex;
+justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+  width: 234px;
+}
+ 
+.finish .finish_wrapper .finish_item .finish_round{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+ width: 118px;
+ height: 118px;
+ background: #B4E2FF;
+ border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+  margin-top: 24.5px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #EFEFEF;
+}
+
+.present{
+  height: 631px;
+  background: #EFEFEF;
+  padding: 88px 0px 88px 0px;
+}
+ 
+.present .present_img{
+  display: block;
+  margin: 0 auto;
+  width: 154px;
+  height: 174px;  
+}
+
+.present .present_text{
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  align-items: center;
+}
+
+.present .present_btn{
+  display: block;
+  margin: 0px auto;
+  margin-top: 75.5px;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.22);
+  font-family: 'Roboto Condensed';
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.first_vebinar{
+  height: 512px;
+  background: white;
+  padding-top: 89px;
+}
+
+.first_vebinar .first_vebinar_img{
+  margin: 0 auto;
+  width: 342px;
+  height: 201px;
+}
+
+.first_vebinar .pretext{
+  
+  margin-top: 36px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.first_vebinar .september{
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299CBD;
+}
+
+.first_vebinar .be_on_time{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 24.5px;
+  color: #4A4A4A;
+}
+
+.footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+
+.info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.footer .underlined {
+  text-decoration: underline;
+  color: #888888;
+}
